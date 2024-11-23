@@ -1,4 +1,4 @@
-FROM webdevops/go-crond:master-alpine
+FROM --platform=linux/amd64 webdevops/go-crond:master-alpine
 LABEL maintainer="Johannes Schickling <schickling.j@gmail.com>"
 
 ADD install.sh install.sh
